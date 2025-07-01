@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\manoj\\DevOps\\GithubAction\\New folder\\MyWebApp\\MyWebApp.csproj",
+      "projectUniqueName": "D:\\manoj\\DevOps\\GithubAction\\New folder\\MyWebApp\\MyApp.Web\\MyWebApp.csproj",
       "projectName": "MyWebApp",
-      "projectPath": "D:\\manoj\\DevOps\\GithubAction\\New folder\\MyWebApp\\MyWebApp.csproj",
+      "projectPath": "D:\\manoj\\DevOps\\GithubAction\\New folder\\MyWebApp\\MyApp.Web\\MyWebApp.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\manoj\\DevOps\\GithubAction\\New folder\\MyWebApp\\obj\\",
+      "outputPath": "D:\\manoj\\DevOps\\GithubAction\\New folder\\MyWebApp\\MyApp.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
