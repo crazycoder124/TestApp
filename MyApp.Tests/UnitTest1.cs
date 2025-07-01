@@ -5,7 +5,7 @@ public class UnitTest1
     [Fact]
     public void Test1()
     {
-        Conole.WriteLine("Hello, World!");
+        Console.WriteLine("Hello, World!");
         Assert.True(true);  
     }
 }
