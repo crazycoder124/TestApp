@@ -15,8 +15,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4 
     - run: docker build . -t dockerjonam/dotnet-test-app
-    - run: echo "${{secret.DOCKERHUB.PASS}}" | docker login -u ${{secret.DOCKERHUB.USERNAME}} --password-stdin
+    - run: echo "${{secrets.DOCKERHUB.PASS}}" | docker login -u ${{secrets.DOCKERHUB.USERNAME}} --password-stdin
     - run: docker push dockerjonam/dotnet-test-app:latest
 
-    
+
 
