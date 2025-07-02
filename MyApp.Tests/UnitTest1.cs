@@ -1,4 +1,7 @@
-﻿namespace MyApp.Tests;
+﻿using System;
+using Xunit;
+
+namespace MyApp.Tests;
 
 public class UnitTest1
 {
@@ -6,6 +9,6 @@ public class UnitTest1
     public void Test1()
     {
         Console.WriteLine("Hello, World!");
-        Assert.True(true);  
+        Assert.True(true);
     }
 }
